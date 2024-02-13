@@ -2,7 +2,7 @@ package javademosClasses;
 
 public class Product {
 	
-	public Product(int id, String name, String description, double price, int stockAmount) {  // aşırı yükleme denir
+	public Product(int id, String name, String description, double price, int stockAmount) {  // aşırı yükleme yapılır
 		System.out.println("Yapıcı blok çalıştı");
 		this.id = id;
 		this.name = name;

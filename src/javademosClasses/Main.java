@@ -25,6 +25,8 @@ public class Main {
 		ProductManager productManager = new ProductManager();
 		productManager.Add(product);
 		
+		productManager.Add2(1,"Laptop");
+		
 
 	}
 
